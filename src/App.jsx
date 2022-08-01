@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header/Header";
 import Todos from "./Todos/Todos";
+import './index.css';
 
 function App() {
   return (
