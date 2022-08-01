@@ -7,10 +7,8 @@ const Header = () => {
     <header className="header">
       <h2>Todos</h2>
       <section className="actionsContainer">
-        <button
-          onClick={onToggleTheme}
-        >
-          Change to 🌚 mode
+        <button onClick={onToggleTheme}>
+          {isDarkTheme ? "Change to 🌞 mode" : "Change to 🌚 mode"}
         </button>
       </section>
     </header>
